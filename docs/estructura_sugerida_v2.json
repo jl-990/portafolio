@@ -1,0 +1,130 @@
+{
+  "00_governance": {
+    "config": {
+      "environments": {
+        "dev": {},
+        "staging": {},
+        "prod": {}
+      },
+      "feature_flags": {}
+    },
+    "constants": {},
+    "schemas": {
+      "api": {},
+      "events": {},
+      "validation": {}
+    },
+    "security": {
+      "secrets_template": {},
+      "policies": {}
+    }
+  },
+  "01_data": {
+    "raw": {
+      "excel": {},
+      "csv": {},
+      "imports": {}
+    },
+    "staging": {},
+    "processed": {},
+    "warehouse": {
+      "marts": {},
+      "snapshots": {}
+    },
+    "quality": {
+      "rules": {},
+      "reports": {}
+    },
+    "logs": {
+      "ingestion": {},
+      "processing": {},
+      "api": {}
+    }
+  },
+  "02_domain": {
+    "turnos": {
+      "models": {},
+      "services": {},
+      "repositories": {},
+      "tests": {}
+    },
+    "combustible": {
+      "models": {},
+      "services": {},
+      "repositories": {},
+      "tests": {}
+    },
+    "agenda": {
+      "models": {},
+      "services": {},
+      "repositories": {},
+      "tests": {}
+    },
+    "shared": {
+      "errors": {},
+      "value_objects": {}
+    }
+  },
+  "03_application": {
+    "use_cases": {},
+    "orchestrators": {},
+    "dto": {}
+  },
+  "04_interfaces": {
+    "api": {
+      "rest": {
+        "routes": {},
+        "controllers": {},
+        "middlewares": {}
+      },
+      "openapi": {}
+    },
+    "frontend": {
+      "src": {
+        "components": {},
+        "pages": {},
+        "state": {},
+        "services": {}
+      },
+      "public": {}
+    },
+    "cli": {}
+  },
+  "05_analytics": {
+    "semantic_models": {},
+    "dashboards": {},
+    "experiments": {}
+  },
+  "06_docs": {
+    "system_map": {},
+    "flows": {},
+    "decisions": {},
+    "runbooks": {},
+    "onboarding": {}
+  },
+  "07_platform": {
+    "scripts": {
+      "setup": {},
+      "data_sync": {},
+      "processing": {},
+      "utils": {}
+    },
+    "infra": {
+      "docker": {},
+      "iac": {}
+    },
+    "ci_cd": {},
+    "observability": {
+      "metrics": {},
+      "alerts": {},
+      "traces": {}
+    }
+  },
+  "08_tests": {
+    "unit": {},
+    "integration": {},
+    "contract": {},
+    "e2e": {},
+    "fixtures": {}
+  }
+}
